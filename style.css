@@ -14,6 +14,7 @@ body {
     background-image: url(./assets/bgimage.jpg);
     background-size: cover;
     background-position: center;
+    color: white;
 }
 
 .info-container {
@@ -26,5 +27,5 @@ body {
 }
 
 .footer {
-    color:whitesmoke; 
+    color:white; 
 }
