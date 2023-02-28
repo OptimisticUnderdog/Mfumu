@@ -1,2 +1,2 @@
 # Netflix-landing-page
-Zaio Netflix landing page clone using HTML and CSS.
+Zaio Coding School Netflix landing page clone using HTML and CSS.
