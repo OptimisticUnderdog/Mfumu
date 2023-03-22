@@ -13,55 +13,55 @@
 
     <body>
         <div class="banner-wrap">
+            <div class="overlay"></div>
+
             <!--Navigation bar-->
             <div class="nav-bar">
                 <img src="./assets/logo.png" alt="Netflix Cover">
                 <a href="https:www.netflix.com/ke-en/login" target="_blank">Sign In</a>
             </div> 
-                <div class="banner-container">
-                    <h1 class="card-title">Unlimited movies, TV shows, and more.</h1>
-                    <h2 class="card-subtitle">Watch anywhere. Cancel anytime</h2>
-                    <!--Get started form-->
-                    <form class="get-started-form">
-                        <h3>Ready to watch? Enter your email to create or restart your membership</h3>
-                        <input type="email">
-                        <button href="https:www.netflix.com/ke-en/login" target="_blank">Get Started >
-                        </button>
-                    </form>
-                </div>
+            <div class="banner-container">
+                <h1 class="card-title">Unlimited movies, TV shows, and more.</h1>
+                <h2 class="card-subtitle">Watch anywhere. Cancel anytime.</h2>
+                    
+                <!--Get started form-->
+                <form>
+                    <h3 class="email-form-title">Ready to watch? Enter your email to create or restart your membership.</h3>
+                    <div class="get-started-form">
+                        <input type="text" placeholder="Email Address">
+                        <button href="https:www.netflix.com/ke-en/login" target="_blank"><strong>Get Started ></strong></button>
+                    </div>
+                </form>
+            </div>
         </div>
+
         <!--information container-->
         <div class="info-container">
+            <h1 class="card-title">Enjoy on your TV.</h1>
+            <p class="card-subtitle">Watch on smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more</p>
+            <img src="./assets/Netflix1.gif" alt="">
+        </div>
 
-            <div class="info">
-              <h1 class="card-title">Enjoy on your TV.</h1>
-              <p class="sm-font">Watch on smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more</p>
-            </div>
-            <div class="tv-container">
-                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" data-uia="nmhp-card-animation-asset-image">
-            <!--Inline video-->
-                <video autoplay playsinline muted loop>
-                    <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4image.png">
-                </video>
-            </div>
-
+        <div class="info-container">
             <h1 class="card-title">Download your shows to watch offline.</h1>
             <p>Save your favorites easily and always have something to watch.</p>
-            <video controls autoplay muted loop>
-              <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
-            </video>
+            <img src="./assets/Netflix2.gif" alt="">
+        </div>
 
+        <div class="info-container">
             <h1 class="card-title">Watch everywhere.</h1>
             <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            <img src="./assets/netflix-3.png" alt="">
+        </div>
 
+        <div class="info-container">
             <h1 class="card-title">Create profile for kids.</h1>
             <p>Send kids on adventures with favorite characters in a space made just for them—free with your membership.</p>
             <img src="./assets/last-img.png" alt="">
-            </img>
         </div>
 
-        <!--This is a footer-->
-        <div class="FAQ">
+        <!-- Requires JavaScript -->
+        <!--<div class="FAQ">
             <h1 class="card-title">Frequently Asked Questions</h1>
             <ul>
                 <li>What is Netflix?</li>
@@ -77,29 +77,42 @@
                 <button href="https:www.netflix.com/ke-en/login" target="_blank">Get Started >
                 </button>
             </form>
-        </div>
+        </div>-->
 
+        <!--footer-->
         <div class="footer">
-            <p>Questions? Call +21 81-344-1348</p>
-            <ul class="lg-font">
-                <li>FAQ</li>
-                <li>Help Center</li>
-                <li>Account</li>
-                <li>Media Center</li>
-                <li>Investor Relations</li>
-                <li>Jobs</li>
-                <li>Redeem Gift Cards</li>
-                <li>Ways to Watch</li>
-                <li>Terms of Use</li>
-                <li>Privacy</li>
-                <li>Cookie Preferences</li>
-                <li>Corporate Information</li>
-                <li>Contact Us</li>
-                <li>Speed Test</li>
-                <li>Legal Notices</li>
-                <li>Only on Netflix</li>
-            </ul>
-            <p class="footer-country">Netflix Mzansi 2023</p>
+            <h4 class="contact-us">Questions? Call +2781 344-1348</h4>
+            <div class="footer-items">
+                <ul class="footer-links">
+                    <li id="faq-item">FAQ</li>
+                    <li id="faq-item">Help Center</li>
+                    <li id="faq-item">Account</li>
+                    <li id="faq-item">Media Center</li>
+                    <li id="faq-item">Investor Relations</li>
+                    <li id="faq-item">Jobs</li>
+                    <li id="faq-item">Redeem Gift Cards</li>
+                    <li id="faq-item">Ways to Watch</li>
+                    <li id="faq-item">Terms of Use</li>
+                    <li id="faq-item">Privacy</li>
+                    <li id="faq-item">Cookie Preferences</li>
+                    <li id="faq-item">Corporate Information</li>
+                    <li id="faq-item">Contact Us</li>
+                    <li id="faq-item">Speed Test</li>
+                    <li id="faq-item">Legal Notices</li>
+                    <li id="faq-item">Only on Netflix</li>
+                </ul>
+            <div class="language">
+                <select name="languages" id="languages">
+                    <option value="English">English</option>
+                    <option value="Tsonga">Tsonga</option>
+                    <option value="Afrikaans">Afrikaans</option>
+                    <option value="Zulu">Zulu</option>
+                    <option value="Tswana">Tswana</option>
+                    <option value="Xhosa">Xhosa</option>
+                    <option value="Sotho">Sotho</option>
+                </select>
+            </div>
+            <p class="footer-country">Netflix Clone | Mfumu Mabunda 2023</p>
         </div>
     </body>
 </html>
